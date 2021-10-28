@@ -1,6 +1,6 @@
 # _{Application Name}_
 
-#### By _**Matt C.**_
+#### By _**Matt C.** , **Kate Kiatsiri**_
 
 #### _{Brief description of application}_
 
