@@ -47,12 +47,20 @@ Code: romanNumeral("anything but a number");
 Expected Output: "That isn't a number"
 
 Test: When we input the number 1 it returns I
-Code: romanNumeral(1);
+Code: romanNumeral("1");
 Expected Output: "I"
 
 Test: When we input a number between 1 and 9 it outputs the correct symbol
-Code: romanNumeral(4);
+Code: romanNumeral("4");
 Expected Output: "IV"
+
+Test: When we input a two-digit number it outputs the correct symbols
+Code: romanNumeral("27");
+Expected Output: "XXVII"
+
+Test: When we input a number between 1-3999 it outputs the correct symbols
+Code: romanNumeral("2021");
+Expected Output: "MMXXI"
 
 
 
