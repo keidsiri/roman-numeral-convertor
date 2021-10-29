@@ -1,6 +1,6 @@
 function romanNumerals(number) {
   if (!parseInt(number)) {
-    return "'NaN'";
+    return "'NaN : Please enter the number'";
   }
   if (parseInt(number) > 3999) {
     return "'Too Big'";
@@ -58,10 +58,12 @@ $(document).ready(function() {
       outputArr.push(romanNumerals(element));
     });
     
-    $("ul").empty();
+    // $("ul").empty();
+    $("#output").text(outputArr)
 
-    outputArr.forEach(function(number) {
-      $("ul").append("<li>" + number + "</li>");
-    });
+    // outputArr.forEach(function(number) {
+    //   $("ul").append("<li>" + number + "</li>");
+    // });
   });
 });
+
