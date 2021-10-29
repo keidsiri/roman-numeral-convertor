@@ -1,3 +1,14 @@
 body {
   background-color: lightblue ;
 }
+
+h1 {
+  text-align: center;
+  color:darkslategray;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form-group {
+  font-size: 20px;
+  text-align: justify;
+}
